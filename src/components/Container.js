@@ -133,7 +133,6 @@ export default function Container() {
   };
 
   const handlePageChange = (page) => {
-    console.log("hello");
     setCurrentPage(page);
   };
 

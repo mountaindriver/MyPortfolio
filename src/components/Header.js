@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import profileImage from "../assests/img/profile-img.jpg"
 
 function Header({ currentPage, handlePageChange }) {
   const [isActive, setIsActive] = useState(false);
@@ -19,7 +20,7 @@ function Header({ currentPage, handlePageChange }) {
       <div id="header" className={`d-flex flex-column`}>
         <div className="profile">
           <img
-            src="../assests/img/profile-img.jpg"
+            src={profileImage}
             alt="Lucas Freigenberg"
             className="img-fluid rounded-circle"
           />
@@ -75,7 +76,7 @@ function Header({ currentPage, handlePageChange }) {
             </li>
             <li>
               <a
-                href="#Resume"
+                href="#resume"
                 onClick={() => handlePageChange("Resume")}
                 className={
                   currentPage === "Resume"

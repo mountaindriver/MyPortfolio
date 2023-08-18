@@ -1,4 +1,5 @@
 import React from "react";
+import profileImage from "../assests/img/profile-img.jpg";
 
 export default function About() {
   return (
@@ -56,7 +57,7 @@ export default function About() {
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
               <img
-                src="../assests/img/profile-img.jpg"
+                src={profileImage}
                 className="img-fluid"
                 alt="Lucas Freigenberg"
               />
@@ -106,7 +107,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section id="skills" className="skills section-bg">
+      {/* <section id="skills" className="skills section-bg">
         <div className="container">
           <div className="section-title">
             <h2>Skills</h2>
@@ -216,7 +217,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </article>
   );
 }
