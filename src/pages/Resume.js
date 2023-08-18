@@ -3,8 +3,8 @@ import React from "react";
 // This page allows user to download my resume
 export default function Resume() {
   return (
-<section id="resume" class="resume">
-    {/* //   <div className="aCard">
+<section id="resume" className="resume">
+    {/* //   <div classNameName="aCard">
     //     <h1>
     //       Thanks for checking out my <span>Portfolio</span> 😎
     //     </h1>
@@ -15,8 +15,8 @@ export default function Resume() {
     //       </a>
     //     </h3>
     //   </div> */}
-    <div class="container">
-      <div class="section-title">
+    <div className="container">
+      <div className="section-title">
         <h2>Resume</h2>
         <p>
           Committed to contributing my creativity, problem-solving and
@@ -25,10 +25,10 @@ export default function Resume() {
         </p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-6" data-aos="fade-up">
-          <h3 class="resume-title">Sumary</h3>
-          <div class="resume-item pb-0">
+      <div className="row">
+        <div className="col-lg-6" data-aos="fade-up">
+          <h3 className="resume-title">Sumary</h3>
+          <div className="resume-item pb-0">
             <h4>Lucas Freigenberg</h4>
             <p>
               <em
@@ -49,8 +49,8 @@ export default function Resume() {
             </ul>
           </div>
 
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
+          <h3 className="resume-title">Education</h3>
+          <div className="resume-item">
             <h4>Bachelors of Science, Exercise Science</h4>
             <h5>2015 - 2019</h5>
             <p>
@@ -63,23 +63,23 @@ export default function Resume() {
               achieving outstanding results.
             </p>
           </div>
-          <div class="resume-item">
+          <div className="resume-item">
             <h4>Full Stack Web Development</h4>
             <h5>2022</h5>
             <p><em>University of Utah, Salt Lake City, Utah</em></p>
             <p>
               I successfully completed a Full Stack Web Development
               certificate from the University of Utah, where I excelled as a
-              team lead for all projects, attended every class, and
+              team lead for all projects, attended every className, and
               diligently completed every assignment. This experience
               showcases my leadership, dedication, and strong work ethic in
               mastering the skills required for full stack development.
             </p>
           </div>
         </div>
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
+        <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 className="resume-title">Professional Experience</h3>
+          <div className="resume-item">
             <h4>Front End Web Developer Intern</h4>
             <h5>2023 January - April</h5>
             <p><em>Diggifi, Tel Aviv, Israel</em></p>
@@ -103,7 +103,7 @@ export default function Resume() {
               </li>
             </ul>
           </div>
-          <div class="resume-item">
+          <div className="resume-item">
             <h4>Web Developer Intern</h4>
             <h5>2023</h5>
             <p><em>Livnot U'Lehibanot, Tzfat, Israel</em></p>

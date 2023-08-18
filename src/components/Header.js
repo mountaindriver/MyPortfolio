@@ -1,102 +1,115 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Header({ currentPage, handlePageChange }) {
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleMobileNav = () => {
+    setIsActive(!isActive);
+  };
+
   return (
-    <header id="header">
-      <div class="d-flex flex-column">
-        <div class="profile">
+    <header className={`${isActive ? "mobile-nav-active" : ""}`}>
+      <i
+        class="bi bi-list mobile-nav-toggle d-xl-none"
+        className={`mobile-nav-toggle bi d-xl-none ${
+          isActive ? "bi-x" : "bi-list"
+        }`}
+        onClick={toggleMobileNav}
+      ></i>
+      <div id="header" className={`d-flex flex-column`}>
+        <div className="profile">
           <img
-            src="assets/img/profile-img.jpg"
-            alt=""
-            class="img-fluid rounded-circle"
+            src="../assests/img/profile-img.jpg"
+            alt="Lucas Freigenberg"
+            className="img-fluid rounded-circle"
           />
-          <h1 class="text-light">
+          <h1 className="text-light">
             <a href="index.html">Lucas Freigenberg</a>
           </h1>
-          <div class="social-links mt-3 text-center">
+          <div className="social-links mt-3 text-center">
             <a
               href="https://github.com/mountaindriver?tab=repositories"
-              class="github"
+              className="github"
             >
-              <i class="bx bxl-github"></i>
+              <i className="bx bxl-github"></i>
             </a>
-            <a href="emailto:lsfreigenberg@outlook.com" class="Email">
-              <i class="bx bxl-skype"></i>
+            <a href="emailto:lsfreigenberg@outlook.com" className="Email">
+              <i className="bx bxl-skype"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/lucas-freigenberg-539338134/"
-              class="linkedin"
+              className="linkedin"
             >
-              <i class="bx bxl-linkedin"></i>
+              <i className="bx bxl-linkedin"></i>
             </a>
           </div>
         </div>
 
-        <nav id="navbar" class="nav-menu navbar">
+        <nav id="navbar" className="nav-menu navbar">
           <ul>
             <li>
               <a
                 href="#top"
                 onClick={() => handlePageChange("About")}
-                class={
+                className={
                   currentPage === "hero"
                     ? "pActiv nav-link scrolltoe"
                     : "pNa nav-link scrolltov"
                 }
               >
-                <i class="bx bx-home"></i> <span>Home</span>
+                <i className="bx bx-home"></i> <span>Home</span>
               </a>
             </li>
             <li>
               <a
                 href="#about"
                 onClick={() => handlePageChange("About")}
-                class={
+                className={
                   currentPage === "About"
                     ? "pActive nav-link scrollto"
                     : "pNav nav-link scrollto"
                 }
               >
-                <i class="bx bx-user"></i> <span>About</span>
+                <i className="bx bx-user"></i> <span>About</span>
               </a>
             </li>
             <li>
               <a
                 href="#Resume"
                 onClick={() => handlePageChange("Resume")}
-                class={
+                className={
                   currentPage === "Resume"
                     ? "pActive nav-link scrollto"
                     : "pNav nav-link scrollto"
                 }
               >
-                <i class="bx bx-file-blank"></i> <span>Resume</span>
+                <i className="bx bx-file-blank"></i> <span>Resume</span>
               </a>
             </li>
             <li>
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange("Portfolio")}
-                class={
+                className={
                   currentPage === "Portfolio"
                     ? "pActive nav-link scrollto"
                     : "pNav nav-link scrollto"
                 }
               >
-                <i class="bx bx-book-content"></i> <span>Portfolio</span>
+                <i className="bx bx-book-content"></i> <span>Portfolio</span>
               </a>
             </li>
             <li>
               <a
                 href="#contact"
                 onClick={() => handlePageChange("Contact")}
-                class={
+                className={
                   currentPage === "contact"
                     ? "pActive nav-link scrollto"
                     : "pNav nav-link scrollto"
                 }
               >
-                <i class="bx bx-envelope"></i> <span>Contact</span>
+                <i className="bx bx-envelope"></i> <span>Contact</span>
               </a>
             </li>
           </ul>

@@ -5,22 +5,9 @@ import React from "react";
 export default function Contact() {
   return (
     <article>
-    <section>
-      <div className="aCard">
-        <h1>
-          Contact <span>Me</span> &#128513;
-        </h1>
-        <p>
-          If you want to get in touch, leave me a message or connect with one of
-          the links in the footer.
-        </p>
-        {/* <Form /> */}
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
+      <section id="contact" className="contact">
+        <div className="container">
+          <div className="section-title">
             <h2>Contact</h2>
             <p>
               I invite you to join me on this exhilarating journey as we embark
@@ -30,98 +17,98 @@ export default function Contact() {
             </p>
           </div>
 
-          <div class="row" data-aos="fade-in">
-            <div class="col-lg-5 d-flex align-items-stretch">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
+          <div className="row" data-aos="fade-in">
+            <div className="col-lg-5 d-flex align-items-stretch">
+              <div className="info">
+                <div className="address">
+                  <i className="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
                   <p>Salt Lake City, Utah</p>
                 </div>
 
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
+                <div className="email">
+                  <i className="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p>
-                    <a href="emailto:lsfreigenberg@outlook.com"
-                      >lsfreigenberg@outlook.com</a
-                    >
+                    <a href="emailto:lsfreigenberg@outlook.com">
+                      lsfreigenberg@outlook.com
+                    </a>
                   </p>
                 </div>
 
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
+                <div className="phone">
+                  <i className="bi bi-phone"></i>
                   <h4>Call:</h4>
                   <p>+1 (435) 659-8934</p>
                 </div>
 
                 <img
                   src="assets/img/profile-img.jpg"
-                  class="img-fluid"
+                  className="img-fluid"
                   alt=""
                 />
               </div>
             </div>
 
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              {/* <form
+            <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form
                 action="forms/contact.php"
                 method="post"
                 role="form"
-                class="php-email-form"
-              > */}
-                <div class="row">
-                  <div class="form-group col-md-6">
+                className="php-email-form"
+              >
+                <div className="row">
+                  <div className="form-group col-md-6">
                     <label for="name">Your Name</label>
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       required
                     />
                   </div>
-                  <div class="form-group col-md-6">
+                  <div className="form-group col-md-6">
                     <label for="name">Your Email</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       name="email"
                       id="email"
                       required
                     />
                   </div>
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <label for="name">Subject</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     name="subject"
                     id="subject"
                     required
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <label for="name">Message</label>
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     name="message"
                     rows="10"
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
+                <div className="my-3">
+                  <div className="loading">Loading</div>
+                  <div className="error-message"></div>
+                  <div className="sent-message">
                     Your message has been sent. Thank you!
                   </div>
                 </div>
-                <div class="text-center">
+                <div className="text-center">
                   <button type="submit">Send Message</button>
                 </div>
-              {/* </form> */}
+              </form>
             </div>
           </div>
         </div>
