@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.c057ab4d.css",
-    "main.js": "/MyPortfolio/static/js/main.9ae5f465.js",
+    "main.css": "/MyPortfolio/static/css/main.1b49a2e3.css",
+    "main.js": "/MyPortfolio/static/js/main.385f7d27.js",
     "static/js/787.ef0c4325.chunk.js": "/MyPortfolio/static/js/787.ef0c4325.chunk.js",
     "static/media/hero-bg.jpg": "/MyPortfolio/static/media/hero-bg.1f9cbeb09ee09639f783.jpg",
     "static/media/profile-img.jpg": "/MyPortfolio/static/media/profile-img.f7c38d0994cda8d09d21.jpg",
@@ -17,12 +17,12 @@
     "static/media/TheTechBlog.png": "/MyPortfolio/static/media/TheTechBlog.0f56cdb55a2480357c3d.png",
     "static/media/WorkInProgres.jpg": "/MyPortfolio/static/media/WorkInProgres.66936d2989c0a6d4b9f6.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.c057ab4d.css.map": "/MyPortfolio/static/css/main.c057ab4d.css.map",
-    "main.9ae5f465.js.map": "/MyPortfolio/static/js/main.9ae5f465.js.map",
+    "main.1b49a2e3.css.map": "/MyPortfolio/static/css/main.1b49a2e3.css.map",
+    "main.385f7d27.js.map": "/MyPortfolio/static/js/main.385f7d27.js.map",
     "787.ef0c4325.chunk.js.map": "/MyPortfolio/static/js/787.ef0c4325.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c057ab4d.css",
-    "static/js/main.9ae5f465.js"
+    "static/css/main.1b49a2e3.css",
+    "static/js/main.385f7d27.js"
   ]
 }
