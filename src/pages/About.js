@@ -10,7 +10,6 @@ export default function About() {
       >
         <div className="hero-container" data-aos="fade-in">
           <h1>Lucas Freigenberg</h1>
-          <p>I'm a Full Stack Developer</p>
         </div>
       </section>
       <section id="about" className="about">
@@ -67,7 +66,6 @@ export default function About() {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    {/* <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> --> */}
                     <li>
                       <i className="bi bi-chevron-right"></i>
                       <strong>Website:</strong>
@@ -107,117 +105,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <section id="skills" className="skills section-bg">
-        <div className="container">
-          <div className="section-title">
-            <h2>Skills</h2>
-            <p>
-              I am committed to a perpetual journey of self-improvement,
-              continuously assimilating new technologies and refining my coding
-              skills in the realm of full stack development. My unwavering
-              dedication to staying at the forefront of advancements ensures
-              that I consistently deliver the best possible solutions to my
-              clients.
-            </p>
-          </div>
-
-          <div className="row skills-content">
-            <div className="col-lg-6" data-aos="fade-up">
-              <div className="progress">
-                <span className="skill">
-                  HTML <i className="val">95%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="95"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  CSS <i className="val">80%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  JavaScript <i className="val">75%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div className="progress">
-                <span className="skill">
-                  React <i className="val">80%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  Git <i className="val">70%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="70"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">
-                  TypeScript <i className="val">55%</i>
-                </span>
-                <div className="progress-bar-wrap">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </article>
   );
 }

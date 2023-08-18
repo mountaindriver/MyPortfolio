@@ -200,7 +200,9 @@ export default function Contact() {
                     Your message has been sent. Thank you!
                   </div>
                   <div className="text-center">
-                    <button onClick={handleFormSubmit}>Send Message</button>
+                    <button type="submit" onClick={handleFormSubmit}>
+                      Send Message
+                    </button>
                   </div>
                   {errorMessage && (
                     <div>

@@ -536,6 +536,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  max-height: 325px;
+  overflow: hidden;
 }
 
 .portfolio #portfolio-flters {

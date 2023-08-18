@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import profileImage from "../assests/img/profile-img.jpg"
+import profileImage from "../assests/img/profile-img.jpg";
+import { FiGithub } from "react-icons/fi";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Header({ currentPage, handlePageChange }) {
   const [isActive, setIsActive] = useState(false);
@@ -29,19 +32,19 @@ function Header({ currentPage, handlePageChange }) {
           </h1>
           <div className="social-links mt-3 text-center">
             <a
-              href="https://github.com/mountaindriver?tab=repositories"
-              className="github"
-            >
-              <i className="bx bxl-github"></i>
-            </a>
-            <a href="emailto:lsfreigenberg@outlook.com" className="Email">
-              <i className="bx bxl-skype"></i>
-            </a>
-            <a
               href="https://www.linkedin.com/in/lucas-freigenberg-539338134/"
               className="linkedin"
             >
-              <i className="bx bxl-linkedin"></i>
+              <FaLinkedinIn />
+            </a>
+            <a href="emailto:lsfreigenberg@outlook.com" className="Email">
+              <AiOutlineMail />
+            </a>
+            <a
+              href="https://github.com/mountaindriver?tab=repositories"
+              className="github"
+            >
+              <FiGithub />
             </a>
           </div>
         </div>
